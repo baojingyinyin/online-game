@@ -24,8 +24,8 @@ function setup() {
           ///////
 //  socket = io.connect ('http://localhost:3000');
           
-socket = io.connect ( 'https://agile-everglades-72174.herokuapp.com/');
-// socket = io.connect ('https://studio10-online-game.herokuapp.com/');
+// socket = io.connect ( 'https://agile-everglades-72174.herokuapp.com/');
+socket = io.connect ('https://studio10-online-game.herokuapp.com/');
 //  socket = io.connect ('http://5392405bfb35.ngrok.io/');
           
   socket.on ('mouse', newDrawing);
